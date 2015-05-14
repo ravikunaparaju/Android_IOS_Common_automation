@@ -1,0 +1,7 @@
+android: PLATFORM=android -r features/Android/support -r features/Android -r features/step_definitions
+ios: PLATFORM=ios APP_BUNDLE_PATH=apps/app-cal.app -r features/IOS/support -r features/IOS -r features/step_definitions
+areport: --format progress --format html --out=reports/android/features_report.html
+ireport: --format progress --format html --out=reports/ios/features_report.html 
+wip: --tags ~@wip
+orderTests: features/MapRoute.feature features
+newApkTests: features/login.feature features
