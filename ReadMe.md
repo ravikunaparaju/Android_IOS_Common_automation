@@ -70,9 +70,6 @@ config folder consists cucumber.yml file. This file holds profiles to run automa
 5.	ireport: this profile generates test report under reports -> ios folder
 6.	areport: this profile generates test report under reports -> android folder
 
-###features
-
-Features folder consists Android, features files, IOS, step definitions and support folders
 
 ###reports
 
@@ -82,19 +79,24 @@ Reports folder consists ‘android’ and ‘ios’ subfolders. Which are placeh
 
 Screenshots folder consists android and ios sub folders that hold screenshots for android and ios applications on failed scenarios during test execution.
 
-###Android
+###features
+
+Features folder consists Android, features files, IOS, step definitions and support folders
+
+
+####Android
 
 This folder contains calabash custom code classes for android platform, and support code like hooks.
 
-###IOS
+####IOS
 
 this folder contains screen specific custom code classes for ios platform, and support code like hooks which needs to be executed during certain scenarios
 
-###support
+####support
 
 Any support code like environmental variables are added in this folder
 
-###step definitions
+####step definitions
 
 This folder consists step definition ruby files, calabash uses for running the tests. 
 
